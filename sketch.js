@@ -1,4 +1,4 @@
-<div>Teachable Machine Image Model - p5.js and ml5.js</div>
+<div>Leaf Life - p5.js and ml5.js</div>
 <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
