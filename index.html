@@ -48,6 +48,11 @@
       margin-top: 20px;
       text-align: center;
     }
+
+    /* Style pour le bouton Start */
+    #start-button {
+      margin-top: 10px;
+    }
   </style>
 </head>
 
@@ -57,9 +62,11 @@
     <h1>Leaf Life - Plant Recognition</h1>
   </header>
 
-  <div style="text-align: center;">Press start button</div>
-  <button type="button" onclick="init()">Start</button>
-  <div id="webcam-container"></div>
+  <div style="text-align: center;">
+    <!-- Ajout d'un ID pour le bouton Start -->
+    <button id="start-button" type="button" onclick="init()">Start</button>
+  </div>
+  <div id="webcam-container">Press start button</div>
   <div id="label-container"></div>
 
   <!-- Scripts existants -->
