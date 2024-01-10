@@ -15,8 +15,11 @@
     header {
       background-color: #d3f7cf; /* Vert clair pastel */
       padding: 20px;
+      text-align: center;
       display: flex;
+      justify-content: center;
       align-items: center;
+      flex-direction: column;
     }
 
     .logo {
@@ -51,10 +54,10 @@
 <body>
   <header>
     <img class="logo" src="./assets/leaf.png" alt="Logo Leaf Life">
-    <h1>Leaf Life</h1>
+    <h1>Leaf Life - Plant Recognition</h1>
   </header>
 
-  <div>Press start button</div>
+  <div style="text-align: center;">Press start button</div>
   <button type="button" onclick="init()">Start</button>
   <div id="webcam-container"></div>
   <div id="label-container"></div>
