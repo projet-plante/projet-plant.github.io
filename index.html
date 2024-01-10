@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Leaf Life - Application</title>
+  <title>Leaf Life - Plant Recognition Application</title>
   <style>
     /* CSS */
     body {
@@ -13,14 +13,20 @@
     }
 
     header {
-      background-color: #f2f2f2;
+      background-color: #d3f7cf; /* Vert clair pastel */
       padding: 20px;
-      text-align: center;
+      display: flex;
+      align-items: center;
     }
 
     .logo {
       max-width: 100px;
       height: auto;
+      margin-right: 20px; /* Espace à droite du logo */
+    }
+
+    h1 {
+      margin: 0; /* Supprimer les marges par défaut */
     }
 
     #webcam-container {
@@ -44,11 +50,11 @@
 
 <body>
   <header>
-    <h1>Leaf Life</h1>
     <img class="logo" src="./assets/leaf.png" alt="Logo Leaf Life">
+    <h1>Leaf Life</h1>
   </header>
 
-  <div>Leaf Life</div>
+  <div>Press start button</div>
   <button type="button" onclick="init()">Start</button>
   <div id="webcam-container"></div>
   <div id="label-container"></div>
